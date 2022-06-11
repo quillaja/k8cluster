@@ -8,6 +8,7 @@
 
 # system
 debian 11 or testing (w/ non-free firmware), headless/minimal
+swap disabled (required for some kubernetes things)
 
 # additional packages beyond base system
 htop
