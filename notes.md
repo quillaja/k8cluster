@@ -10,6 +10,17 @@
 debian 11 or testing (w/ non-free firmware), headless/minimal
 swap disabled (required for some kubernetes things)
 
+# hardware
+- node0
+	- custom built desktop
+	- Intel Core i5-4430 CPU @ 3.00GHz (haswell, 4 cores, 1 threads/core)
+	- 16gb ram
+- node1-3
+	- Dell Optiplex 3020
+	- Intel Core i5-4590 CPU @ 3.30GHz (haswell, 4 cores, 1 threads/core)
+	- 8gb ram
+- tp-link 5 port 1 gigabit unmanaged switch, TL-SG1005D
+
 # additional packages beyond base system
 htop
 micro
